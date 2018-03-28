@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--错误页-->
+    <include
+        android:id="@+id/error"
+        android:visibility="gone"
+        layout="@layout/view_error"/>
+    <!--无数据页-->
+    <include
+        android:id="@+id/empty"
+        android:visibility="gone"
+        layout="@layout/view_empty"/>
+
+    <!--加载页-->
+    <include
+        android:id="@+id/loading"
+        android:visibility="gone"
+        layout="@layout/view_loading"/>
+</RelativeLayout>
